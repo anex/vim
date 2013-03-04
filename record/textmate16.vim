@@ -1,0 +1,1 @@
+{"generated_by":"Vimana-2010.0421","install_type":"text","version":0.2,"files":[{"checksum":"e707f42b607f7392bf70b80565980062","file":"/home/elsanto/.vim/colors/textmate16.vim"}],"package":"textmate16.vim"}

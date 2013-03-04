@@ -1,0 +1,9 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =7
+let g:netrw_dirhist_1='/home/aphu/Documentos/Covetel/kronos/lib/kronos/View'
+let g:netrw_dirhist_2='/home/aphu/Documentos/Covetel/covetel-ldap-sync/Covetel-LDAP-Sync/lib/Covetel/LDAP/Sync'
+let g:netrw_dirhist_3='/home/aphu/Documentos/Covetel/MinDeportes/kronos/root/src/login'
+let g:netrw_dirhist_4='/home/aphu/Documentos/Covetel/covetel-ldap-sync'
+let g:netrw_dirhist_5='/home/aphu/Documentos/Covetel/MinDeportes/kronos/lib/kronos/Controller'
+let g:netrw_dirhist_6='/home/aphu/Descargas/test/Wikipedia/ftdetect'
+let g:netrw_dirhist_7='/home/aphu/Documentos/Covetel/covetel-ldap-sync'

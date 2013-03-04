@@ -1,0 +1,1 @@
+{"generated_by":"Vimana-2010.0421","install_type":"text","version":0.2,"files":[{"checksum":"ec5b4cbf210d43b24e373a7bd1669683","file":"/home/elsanto/.vim/syntax/xhtml.vim"}],"package":"xhtml.vim"}
