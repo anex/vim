@@ -34,6 +34,8 @@ au BufRead,BufNewFile *.tmp setfiletype moinmoin
 
 "status line
 set statusline=%F%m%r%h%w\ [FORMAT=%{&ff}]\ [TYPE=%Y]\ [ASCII=\%03.3b]\ [HEX=\%02.2B]\ [POS=%04l,%04v][%p%%]\ [LEN=%L]
+set laststatus=2
+set t_Co=256
 
 "set tw=79
 set tw=0
@@ -46,6 +48,10 @@ map <silent> ,V :source ~/.vimrc <CR>:filetype detect<CR>:exe ":echo 'vimrc relo
 "colorscheme darkspectrum
 "colorscheme rdark
 "colorscheme kib_darktango
+"colorscheme fine_blue
+"colorscheme peachpuff
+colorscheme ir_black
+
 syntax on
 set encoding=utf8
 
@@ -59,7 +65,6 @@ set expandtab
 
 map <F6> <Esc>:syntax off<CR><Esc>:setlocal spell spelllang=es,en<CR>
 map <F7> <Esc>:syntax on<CR><Esc>:setlocal nospell<CR>
-colorscheme fine_blue
 
 set tabstop=4
 set nu
@@ -81,7 +86,9 @@ vmap <s-tab> <gv
 imap <F2> <C-R>=strftime("%c")<CR>
 imap <F2> <C-R>=system("perl -MDateTime -e 'print DateTime->now'")<CR>
 
-set foldmethod=manual
+set foldmethod=indent
+set viewoptions=folds
+"set foldexpr=getline(v:lnum)=~'^\\r*$'&&getline(v:lnum+1)=~'^\\r*$'?'<1':1
 
 "let perl_fold = 0
 "let perl_fold_blocks = 0
