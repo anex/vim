@@ -59,14 +59,14 @@ set encoding=utf8
 set showtabline=2
 
 "Tabs to spaces. 
-set tabstop=4
+set tabstop=2
 set shiftwidth=4
 set expandtab
 
 map <F6> <Esc>:syntax off<CR><Esc>:setlocal spell spelllang=es,en<CR>
 map <F7> <Esc>:syntax on<CR><Esc>:setlocal nospell<CR>
 
-set tabstop=4
+set tabstop=2
 set nu
 
 "map <Esc>[Z <s-tab>
@@ -126,3 +126,11 @@ let b:tt2_syn_tags = '\[% %] <!-- -->'
 let xml_tag_complation_map = "<C-l>"
 let xml_tag_syntax_prefixes = 'html\|xml\|xsl\|xsd'
 let xml_use_xhtml = 1
+
+set rtp+=/usr/local/lib/python2.7/dist-packages/powerline/bindings/vim/
+
+" Always show statusline
+set laststatus=2
+
+" Use 256 colours (Use this setting only if your terminal supports 256
+set t_Co=256
