@@ -1,4 +1,11 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =2
-let g:netrw_dirhist_1='/home/aphu/Descargas/test/Covetel/LDAP/Sync'
-let g:netrw_dirhist_2='/etc/postfix'
+let g:netrw_dirhist_cnt =9
+let g:netrw_dirhist_1='/home/aphu/Documents/Covetel/Odoo/addons/odoo-clad/addons/clad_account_chart'
+let g:netrw_dirhist_2='/home/aphu/Documents/Covetel/Odoo/addons/8.0/pharma_base/i18n'
+let g:netrw_dirhist_3='/home/aphu/Documents/Covetel/Odoo/addons/8.0/odoo-clad/addons/clad_account_analytic'
+let g:netrw_dirhist_4='/home/aphu/Documents/Covetel/Odoo/addons/8.0/odoo-clad/addons/clad_account_analytic_chart'
+let g:netrw_dirhist_5='/home/aphu/Documents/Covetel/Odoo/addons/8.0/odoo-clad/addons/clad_account_chart/scripts'
+let g:netrw_dirhist_6='/Users/aphu/Documents/ReadersLegacy/django-shop/shop/models_bases'
+let g:netrw_dirhist_7='/Users/aphu/Documents/ReadersLegacy/readerslegacy/.git'
+let g:netrw_dirhist_8='/Users/aphu/Documents/ReadersLegacy/readerslegacy/search'
+let g:netrw_dirhist_9='/Users/aphu/Documents/ReadersLegacy/readerslegacy/readerslegacy/settings'

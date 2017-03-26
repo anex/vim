@@ -1,6 +1,8 @@
 "Fuentes
-set guifont="Verdana\ Bold\ 14"
+"set guifont="Verdana\ Bold\ 14"
+set guifont=Inconsolata\ for\ Powerline:h14
 
+filetype on
 filetype plugin on
 filetype  indent on
 
@@ -58,7 +60,7 @@ set encoding=utf8
 "Pestannas
 set showtabline=2
 
-"Tabs to spaces. 
+"Tabs to spaces.
 set tabstop=2
 set shiftwidth=4
 set expandtab
@@ -94,7 +96,7 @@ set viewoptions=folds
 "let perl_fold_blocks = 0
 "let perl_nofold_packages = 1
 let perl_extended_vars = 1
-"let perl_include_pod = 1 
+"let perl_include_pod = 1
 let perl_want_scope_in_variables = 1
 
 set equalprg=perltidy
@@ -122,15 +124,23 @@ au BufNewFile,BufRead *.tt2 setf tt2
 let b:tt2_syn_tags = '\[% %] <!-- -->'
 
 
-"XML 
+"XML
 let xml_tag_complation_map = "<C-l>"
 let xml_tag_syntax_prefixes = 'html\|xml\|xsl\|xsd'
 let xml_use_xhtml = 1
 
-set rtp+=/usr/local/lib/python2.7/dist-packages/powerline/bindings/vim/
+"set rtp+=/usr/local/lib/python2.7/dist-packages/powerline/bindings/vim/
+set rtp+=/usr/local/lib/python2.7/site-packages/powerline/bindings/vim/
+"source /usr/local/lib/python2.7/site-packages/powerline/bindings/vim/plugin/powerline.vim
 
 " Always show statusline
 set laststatus=2
 
 " Use 256 colours (Use this setting only if your terminal supports 256
 set t_Co=256
+
+set guifont=Inconsolata\ for\ Powerline:h14
+set term=xterm-256color
+set termencoding=utf-8
+
+autocmd BufWritePre *.py,*.js :%s/\s\+$//e
